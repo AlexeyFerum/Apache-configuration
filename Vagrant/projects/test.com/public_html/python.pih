@@ -1,0 +1,7 @@
+<html>
+<head><title>Request info</title></head>
+<body>
+	<% import time %>
+	<%= time.strftime("%d:%m:%y",time.localtime(time.time())) %>	
+</body>
+</html>
